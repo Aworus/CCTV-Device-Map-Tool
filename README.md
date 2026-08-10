@@ -119,6 +119,12 @@ Local configuration, logs, backups, imported private spreadsheets, generated run
 
 ## Background
 
-The tool originates from a device-management and map-maintenance problem encountered during practical IT experience. This public version was prepared with neutral data and documentation, while preserving the original workflow and interface concepts.
+The project is based on a real device-management and Zabbix map-maintenance
+problem encountered during practical IT work.
 
-Preparation and verification included AI assistance. This description does not claim sole authorship of any earlier internal solution.
+This repository contains a sanitized version using fictional devices,
+documentation-only IP ranges, and neutral maps. No employer infrastructure
+data, credentials, or private operational data are included.
+
+AI tools were used during development and later preparation of the public
+version, including implementation support, debugging, testing, and code review.
