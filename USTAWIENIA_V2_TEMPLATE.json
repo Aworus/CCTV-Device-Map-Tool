@@ -1,0 +1,14 @@
+{
+  "zabbix_url": "",
+  "zabbix_user": "",
+  "zabbix_password": "",
+  "zabbix_map_name": "",
+  "map_targets": {
+    "camera": "",
+    "recorder": "",
+    "switch": "",
+    "cabinet": ""
+  },
+  "camera_spreadsheet_path": "",
+  "types": {}
+}

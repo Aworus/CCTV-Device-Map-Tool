@@ -1,0 +1,73 @@
+# Local configuration and credentials
+USTAWIENIA.json
+.env
+.env.*
+*.credentials
+*.secret
+
+# Runtime output
+logs/
+backups/
+diagnostics/
+/screenshots/
+runtime/
+plans/
+*.log
+*.bak
+*.tmp
+*.temp
+~$*
+
+# Private spreadsheets and generated imports
+*.ods
+*.xls
+*.xlsx
+*.csv
+!data/devices.csv
+!data/demo_camera_import.csv
+data/camera_inventory.*
+data/camera_points.csv
+
+# Private maps and images. Explicitly retain public assets.
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+!icons/CABINET.png
+!icons/CAM.png
+!icons/CAMERA.png
+!icons/RECORDER.png
+!icons/SWITCH.png
+!data/camera_map.png
+!data/infrastructure_map.png
+!docs/screenshots/main-window.png
+!docs/screenshots/devices.png
+!docs/screenshots/map-editor.png
+!docs/screenshots/synchronization.png
+
+# Internal reports are not repository content
+docs/RAPORT_*.md
+docs/*SECURITY*.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and local working copies
+*.zip
+DEMO_WORKING/
